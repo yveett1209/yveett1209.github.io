@@ -4,70 +4,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jessica · 黑金科技主页</title>
-
   <link rel="stylesheet" href="style.css">
-
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <header>
+    <div class="logo">J.</div>
+    <nav>
+      <a href="#home">首页</a>
+      <a href="#about">关于我</a>
+      <a href="#research">研究领域</a>
+      <a href="#projects">项目成果</a>
+      <a href="#insights">洞察分享</a>
+      <a href="#contact">联系我</a>
+    </nav>
+  </header>
 
-<header>
-  <div class="logo">JESSICA</div>
-
-  <nav>
-    <a href="#about">关于我</a>
-    <a href="#research">研究方向</a>
-    <a href="#contact">联系我</a>
-  </nav>
-</header>
-
-<section id="hero">
-  <h1>科技赋能美丽</h1>
-  <h2>AI × Cosmetic Research</h2>
-
-  <p>
-    白发逆转 · 配方科学 · AI 应用 · IFSCC 洞察
-  </p>
-</section>
-
-<section id="about">
-  <h2>关于我</h2>
-
-  <p>
-    专注头皮头发护理科技与 AI 技术结合研究。
-  </p>
-</section>
-
-<section id="research">
-  <h2>研究方向</h2>
-
-  <div class="cards">
-
-    <div class="card">
-      <h3>白发逆转</h3>
-      <p>MITF / Wnt / McSC 激活路线探索</p>
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>AI × COSMETIC RESEARCH</h2>
+      <h1>科技赋能美丽<br>创新驱动未来</h1>
+      <p>专注于 AI 与化妆品研发的交叉领域研究<br>探索科学与美的无限可能</p>
+      <div class="hero-buttons">
+        <a href="#research" class="btn btn-primary">了解我的研究</a>
+        <a href="#projects" class="btn btn-secondary">查看项目成果</a>
+      </div>
+      <div class="stats">
+        <div><strong>5+</strong>研究项目</div>
+        <div><strong>3</strong>专利申请</div>
+        <div><strong>10+</strong>行业洞察</div>
+        <div>探索不止</div>
+      </div>
     </div>
-
-    <div class="card">
-      <h3>头皮护理</h3>
-      <p>酸类成分与智能筛选</p>
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/400x500" alt="Jessica">
     </div>
+  </section>
 
-    <div class="card">
-      <h3>AI 应用</h3>
-      <p>配方预测与趋势分析</p>
+  <section id="research" class="cards-section">
+    <div class="cards">
+      <div class="card">
+        <h3>化妆品研发</h3>
+        <p>活性成分筛选与功效验证<br>配方设计与产品开发</p>
+      </div>
+      <div class="card">
+        <h3>AI 应用</h3>
+        <p>机器学习模型构建<br>数据驱动研发创新</p>
+      </div>
+      <div class="card">
+        <h3>白发逆转研究</h3>
+        <p>机制探索与靶点发现<br>创新解决方案研发</p>
+      </div>
+      <div class="card">
+        <h3>专利分析</h3>
+        <p>全球专利检索与分析<br>技术趋势洞察</p>
+      </div>
+      <div class="card">
+        <h3>IFSCC 洞察</h3>
+        <p>行业前沿动态<br>技术发展趋势</p>
+      </div>
     </div>
+  </section>
 
-  </div>
-</section>
+  <section id="contact" class="contact">
+    <p>邮箱: <a href="mailto:jessica@example.com">jessica@example.com</a></p>
+    <p>地点: 上海, 中国</p>
+  </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-</section>
+  <footer>
+    <p>© 2024 Jessica. All rights reserved.</p>
+  </footer>
 
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>

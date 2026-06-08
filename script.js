@@ -1,5 +1,10 @@
-// 页面滚动标题渐变
-window.addEventListener('scroll', () => {
-  const hero = document.getElementById('hero');
-  hero.style.opacity = 1 - window.scrollY / 600;
+// 简单滚动渐入动画
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('show');
+    }
+  });
 });
+
+document.querySelectorAll('.card').forEach(card => observer.observe(card));
